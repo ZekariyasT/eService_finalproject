@@ -1,0 +1,61 @@
+# Dependencies
+node_modules/
+
+# Environment & secrets (never commit real credentials)
+.env
+# Local SMTP / Ethereal test credentials (see env.example for templates)
+smtp.md
+
+# Internal system brief / proposal (local copy only; not tracked)
+about-elite-ethiopia.md
+# Google OAuth credential downloads from Cloud Console
+**/client_secret*.json
+.env.*
+!.env.example
+!**/.env.example
+**/env.local
+**/env.*.local
+
+# Keep template files tracked (explicit)
+!**/env.example
+
+# Logs & debug
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# OS
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# IDE / editor (optional local settings)
+.idea/
+*.swp
+*.swo
+*~
+
+# TLS / keys (if added locally)
+*.pem
+*.key
+*.p12
+
+# Next.js (also in client/.gitignore; listed here for clarity from repo root)
+client/.next/
+client/out/
+
+# Backend build output
+backend/dist/
+
+# Uploaded user/content files (keep dir structure via .gitkeep if needed)
+backend/uploads/
+
+# Test / coverage
+coverage/
+.nyc_output/
+
+
+ .cursor/

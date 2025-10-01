@@ -1,0 +1,11 @@
+# Environment (use env.example as template only)
+.env
+.env.*
+
+node_modules/
+dist/
+
+# User uploads & generated storage
+uploads/
+
+*.log
