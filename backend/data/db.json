@@ -1,0 +1,37 @@
+{
+  "users": [
+    {
+      "id": "freelancer-1",
+      "email": "freelancer@test.com",
+      "name": "Abebe Tekle",
+      "role": "freelancer",
+      "verified": true,
+      "createdAt": "2026-03-18T14:10:18.464Z",
+      "passwordHash": "$2b$10$Xbt/UbqnUiw8Y1v4H54f2uMfc4CdUo/4M77.ATj2qGrhFQc1kDiUu",
+      "bio": "Full-stack developer with 5+ years experience",
+      "skills": [
+        "React",
+        "Node.js"
+      ],
+      "hourlyRate": 45,
+      "rating": 4.9,
+      "completedProjects": 127,
+      "earnings": 45000,
+      "location": "Addis Ababa",
+      "profileComplete": 95
+    },
+    {
+      "id": "client-1",
+      "email": "client@test.com",
+      "name": "Selamawit G.",
+      "role": "client",
+      "verified": true,
+      "createdAt": "2026-03-18T14:10:18.464Z",
+      "passwordHash": "$2b$10$Xbt/UbqnUiw8Y1v4H54f2uMfc4CdUo/4M77.ATj2qGrhFQc1kDiUu",
+      "company": "Tech Startup",
+      "industry": "Technology",
+      "location": "Addis Ababa",
+      "verifiedPayment": true
+    }
+  ]
+}
