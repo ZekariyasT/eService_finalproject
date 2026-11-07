@@ -1,5 +1,10 @@
 # Elite Ethiopia eService
 
+[![Vercel](https://img.shields.io/badge/Live%20Demo-Vercel-success?style=for-the-badge&logo=vercel)](https://client-tau-ten-71.vercel.app)
+[![GitHub](https://img.shields.io/badge/Repository-GitHub-blue?style=for-the-badge&logo=github)](https://github.com/ZekariyasT/eService_finalproject)
+
+> **🌐 Live Deployment:** [https://client-tau-ten-71.vercel.app](https://client-tau-ten-71.vercel.app)
+
 Full-stack marketplace for **clients**, **freelancers**, and **digital product sellers** (branded in the UI as **Elite Ethiopia**). Clients post jobs, hire freelancers, and buy products; freelancers list services, submit proposals, and work under contracts; sellers list digital goods (including full-course file uploads). **Admins** moderate users, disputes, platform settings, and reporting.
 
 This repository is a monorepo:
